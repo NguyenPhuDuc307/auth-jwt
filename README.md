@@ -15,7 +15,7 @@ Add the following configuration to your `appsettings.Development.json` configura
 
 ```json
 "JwtOptions": {
-    "SigningKey": "0123456789ABCDEF",
+    "SigningKey": "this is my custom Secret key for authentication",
     "Issuer": "https://api.vnLab.com",
     "Audience": "https://api.vnLab.com"
   }
